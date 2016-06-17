@@ -2,7 +2,7 @@ import _root_.sbt.Keys._
 
 name := "play-multimodule-demo"
 
-scalaVersion := "2.10.4"
+scalaVersion := "2.11.8"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
   .dependsOn(moduleA, moduleB)

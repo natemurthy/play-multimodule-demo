@@ -1,3 +1,3 @@
 name := "ModuleA"
 
-libraryDependencies += "org.scalatestplus"       %% "play"                 % "1.2.0" % "test"
+libraryDependencies += "org.scalatestplus"       %% "play"                 % "1.4.0" % "test"

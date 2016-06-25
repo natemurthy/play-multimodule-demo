@@ -4,6 +4,8 @@ name := "play-multimodule-demo"
 
 scalaVersion in ThisBuild := "2.11.8"
 
+scriptClasspath := Seq("*")
+
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
   .dependsOn(moduleA, moduleB)
   .aggregate(moduleA, moduleB)
